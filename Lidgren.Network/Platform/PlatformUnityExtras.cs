@@ -180,8 +180,8 @@ namespace Lidgren.Network
 		public Rect ReadRect()
 		{
 			return new Rect(
-				x: ReadSingle(),
-				y: ReadSingle(),
+				left: ReadSingle(),
+				top: ReadSingle(),
 				width: ReadSingle(),
 				height: ReadSingle());
 		}
